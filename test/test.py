@@ -64,4 +64,3 @@ async def test_project(dut):
     await ClockCycles(dut.clk, 10)
 
     await ClockCycles(dut.clk, 2000)
-    $finish

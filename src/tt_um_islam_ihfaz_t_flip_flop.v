@@ -18,8 +18,8 @@ module tt_um_islam_ihfaz_t_flip_flop (
 
     wire tin = ui_in[0];
 
-    reg q;
-    reg qbar;
+    wire q;
+    wire qbar;
     reg tq;
 
     always @(posedge clk or negedge rst_n)
